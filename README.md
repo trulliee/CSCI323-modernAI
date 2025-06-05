@@ -1,23 +1,36 @@
-# CSCI323-modernAI Scene Recognition with Transfer Learning
+# CSCI323 Project: Twitter Sentiment Analysis using Naive Bayes
 
-This project applies transfer learning techniques to classify indoor scenes using the Kaggle Indoor CVPR09 dataset. Four pretrained models were evaluated for comparative performance: **Vision Transformer**, **ConvNeXt**, **EfficientNetB0**, and **Swin-Small**.
+This project implements a sentiment classifier to categorize tweets as **positive**, **neutral**, or **negative** using multiple Naive Bayes algorithms. The work was completed as part of a university group project for the *Modern Artificial Intelligence* module.
 
-## 🧠 Project Highlights
-- Dataset: [Kaggle Indoor CVPR09](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
-- Models: ViT, ConvNeXt, EfficientNetB0, Swin-Small
-- Framework: TensorFlow & Keras
-- Platform: Jupyter Notebook
-
-## 🔧 Methods Used
-- Image preprocessing & augmentation
-- Transfer learning with pretrained weights
-- Model training with frozen & fine-tuned layers
-- Validation accuracy tracking across models
+## 🧠 Project Overview
+- **Goal**: Classify sentiment from tweet data using Naive Bayes classifiers
+- **Tech Stack**: Python, Scikit-learn, Jupyter Notebook
+- **Models Used**:
+  - Multinomial Naive Bayes
+  - Complement Naive Bayes
+  - Bernoulli Naive Bayes
 
 ## 📁 Files Included
-- `scene_recognition.ipynb`: Main notebook with model training + evaluation
-- `results/`: (optional) Screenshots of confusion matrix, accuracy graphs
+- `sentiment_analysis_naive_bayes.ipynb`: Main notebook with preprocessing, model training, and evaluation
 
-## 📝 Notes
-Due to resource limitations, training epochs were kept low. Pretrained models were used to balance accuracy with feasibility.
+## 🧪 Key Steps
+1. **Data Preparation**
+   - Tokenization, stopword removal, and vectorization (e.g., TF-IDF)
+   - Split into training, validation, and test sets
+
+2. **Model Implementation**
+   - Trained and compared three Naive Bayes variants
+   - Performed basic hyperparameter tuning
+   - Evaluation using confusion matrices and classification reports
+
+3. **Result Analysis**
+   - Compared performance across models
+   - Observed model behaviors with imbalanced data
+
+## 📌 Notes
+- Dataset is assumed to be a cleaned tweet corpus (due to restrictions, raw data is not included)
+- This project focuses on **classic NLP** and interpretable algorithms
+- Designed for academic exploration and reproducibility
+
+
 
