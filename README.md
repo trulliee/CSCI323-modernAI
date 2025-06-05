@@ -10,9 +10,6 @@ This project implements a sentiment classifier to categorize tweets as **positiv
   - Complement Naive Bayes
   - Bernoulli Naive Bayes
 
-## 📁 Files Included
-- `sentiment_analysis_naive_bayes.ipynb`: Main notebook with preprocessing, model training, and evaluation
-
 ## 🧪 Key Steps
 1. **Data Preparation**
    - Tokenization, stopword removal, and vectorization (e.g., TF-IDF)
@@ -31,6 +28,3 @@ This project implements a sentiment classifier to categorize tweets as **positiv
 - Dataset is assumed to be a cleaned tweet corpus (due to restrictions, raw data is not included)
 - This project focuses on **classic NLP** and interpretable algorithms
 - Designed for academic exploration and reproducibility
-
-
-
