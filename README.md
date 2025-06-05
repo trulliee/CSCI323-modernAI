@@ -1,6 +1,4 @@
-# CSCI323-modernAI
-Scene Recognition
-# Scene Recognition with Transfer Learning
+# CSCI323-modernAI Scene Recognition with Transfer Learning
 
 This project applies transfer learning techniques to classify indoor scenes using the Kaggle Indoor CVPR09 dataset. Four pretrained models were evaluated for comparative performance: **Vision Transformer**, **ConvNeXt**, **EfficientNetB0**, and **Swin-Small**.
 
